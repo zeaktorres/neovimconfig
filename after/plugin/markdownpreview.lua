@@ -1,0 +1,1 @@
+mkdp_browserfunc = 'OpenMarkdownPreview'
