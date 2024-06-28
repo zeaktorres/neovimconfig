@@ -14,3 +14,6 @@ vim.opt.termguicolors = true
 vim.opt.scrolloff = 8 
 vim.opt.updatetime = 50
 vim.opt.wrap = true
+vim.keymap.set("n", "<leader>vd", function()
+    vim.diagnostic.open_float()
+end, opts)
