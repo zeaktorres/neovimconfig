@@ -26,6 +26,9 @@ require("lazy").setup({
         "neovim/nvim-lspconfig"
     },
     {
+        "dense-analysis/ale"
+    },
+    {
         "sindrets/diffview.nvim"
     },
     {
